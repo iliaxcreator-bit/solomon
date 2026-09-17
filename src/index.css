@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Noto Serif Georgian', 'Georgia', serif;
+    background-color: #0f0e0d;
+    color: #eae0d5;
+  }
+}
+
+.font-cinzel {
+  font-family: 'Cinzel', serif;
+}
+
+.font-georgian-serif {
+  font-family: 'Noto Serif Georgian', Georgia, serif;
+}
+
+.font-georgian-sans {
+  font-family: 'Noto Sans Georgian', system-ui, -apple-system, sans-serif;
+}
+
+/* Custom scrollbars with royal gold accent */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(20, 18, 15, 0.7);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(184, 134, 11, 0.4);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(184, 134, 11, 0.7);
+}

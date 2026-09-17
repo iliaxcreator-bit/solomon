@@ -1,0 +1,10 @@
+{
+  "name": "მეფე სოლომონი — სიბრძნის მრჩეველი",
+  "description": "მეფე სოლომონის სიბრძნით აღსავსე მრჩეველი — იგავთა და ეკლესიასტეს ფილოსოფიაზე დაფუძნებული სულიერი და პრაქტიკული დარიგება.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
